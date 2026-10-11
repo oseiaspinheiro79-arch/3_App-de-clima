@@ -1,0 +1,56 @@
+body {
+  font-family: 'Courier New', Courier, monospace, sans-serif;
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+h1 {
+  text-align: center;
+  color: darkblue;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  width: 65%;
+}
+
+button {
+  background-color: rgba(0, 56, 139, 0.514);
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(169, 255, 71);
+}
+
+ol {
+  margin-top: 20px;
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 8px;
+  font-size: 18px;
+}
+li button {
+  font-size: 14px;
+  padding: 3px 8px;
+  margin-left: 8px;
+}
+
+li span {
+  cursor: pointer;
+}
+
+.feita {
+  text-decoration: line-through;
+  color: gray;
+}
